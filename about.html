@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lincoln Investment UI Test - About</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+
+<body>
+
+  <app-header></app-header>
+
+  <div class="container-fluid aboutbackground">
+    <div class="row align-items-start p-3">
+      <div class="col-sm-8">
+        <h1>About Us </h1>
+        <p>With over 50 years of proven industry leadership and experience in delivering investment strategies, Lincoln
+          Investment is a leading broker-dealer. Our network has grown to over 1,000 financial advisors nationwide, and
+          we serve
+          the diverse financial needs of over 355,000 clients representing over $46.0 billion in assets.</p>
+      </div>
+      <div class="col-sm-4">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mt-5"><img class="page-image" src="assets/images/about-tn.jpg"></div>
+      <div class="col-md-8 mt-5">
+
+        <h2>Investment Planning</h2>
+        <h4>Overview</h4>
+        <p>We support a full range of account types to help meet your needs and circumstances. Depending on the type of
+          account you open, there are varying features, benefits, distribution restrictions, etc. associated with the
+          account. Please discuss with your Financial Professional on which account type may be most suitable for you.
+        </p>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                See All Accounts
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <ol>
+                  <li>Individual Accounts</li>
+                  <li>Joint Accounts</li>
+                  <li>Education Savings Accounts</li>
+                  <li>Individual Retirement Accounts</li>
+                  <li>403(b)(7) / 457 Employer-Sponsored Retirement Plans</li>
+                  <li>Small Employer-Sponsored Retirement Plans</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <h2>Annuities</h2>
+        <h4>What is an annuity?</h4>
+        <p>An annuity is a contract between you and an insurance company in which you pay a sum of money, either in a
+          lump sum or through periodic contributions, and in return receive regular payments for life or for a stated
+          period of time.
+        </p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col">
+        <h4>At a Glance: Fixed vs. Variable Annuities</h4>
+      </div>
+    </div>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Fixed</th>
+          <th scope="col">Variable</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Investor's Principal</th>
+          <td>Guaranteed by the insurance company</td>
+          <td>Not guaranteed, but usually pays a minimum death benefit</td>
+        </tr>
+        <tr>
+          <th scope="row">Rate of Return</th>
+          <td>Fixed; minimum rate for life of contract, additional interest credited periodically</td>
+          <td>Varies depending on portfolio performance</td>
+        </tr>
+        <tr>
+          <th scope="row">Investment Options</th>
+          <td>None</td>
+          <td>Investor has multiple choices</td>
+        </tr>
+        <tr>
+          <th scope="row">Investment Risk</th>
+          <td>Insurer is at risk</td>
+          <td>Investor is at risk</td>
+        </tr>
+        <tr>
+          <th scope="row">Where assets held</th>
+          <td>Insurance company general account</td>
+          <td>Insurance company separate account so less exposure to company's creditors</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <app-footer></app-footer>
+
+  <script src="custom-elements.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
