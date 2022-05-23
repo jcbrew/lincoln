@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+.homebackground {
+    background-image: url("../images/home-bk.jpg");
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+.aboutbackground {
+    background-image: url("../images/about-bk.jpg");
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+
+}
+
+
+
+.contactbackground {
+    background-image: url("../images/contact-bk.jpg");
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+
+}
+
+.page-image {
+    width: 100%;
+    background-size: contain;
+}
